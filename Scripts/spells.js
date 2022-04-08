@@ -10,6 +10,6 @@ const words = ["Apple", "Banana", "Cat", "Dog", "Egg",
 const option1 = document.getElementById("option1"),
       option2 = document.getElementById("option2"),
       option3 = document.getElementById("option3"),
-      audio = document.getElementById("wrong");
 
-function generate_question(){ 
+function generate_question(){
+}
