@@ -1,4 +1,4 @@
-# kidsLanguage
+# iLearning
 This is the final code for our project: Children Language Learning System - iLearning. 
 completed for our class TWT2231 - WEB TECHNIQUES AND APPLICATIONS.
 
