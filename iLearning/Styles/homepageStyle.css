@@ -29,6 +29,73 @@ body{
 	font-size: 2em;
 	text-decoration: none;
 }
+.nav{
+  overflow: hidden;
+  background:#6AD9D9;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.nav h2{
+  font-size: 2rem;
+  float: left;
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  font-size: 1.3rem;
+  margin-top: 5px;
+  float: left;
+  padding: 0 15px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.current a::after{
+  content: '-';
+  font-size: 4px;
+  background-color: white;
+  display: block;
+}
+@media(max-width:768px){
+  .nav h2{
+    font-size: 1.5rem;
+    float: none;
+    text-align: center;
+  }
+
+  nav{
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav li{
+    font-size: 1rem;
+  }
+}
+
+@media(max-width:480px){
+  .nav h2{
+    float: none;
+    text-align: center;
+  }
+
+  nav li{
+    font-size: .8rem;
+  }
+
+}
 section{
 	position: relative;
 	width: 100%;

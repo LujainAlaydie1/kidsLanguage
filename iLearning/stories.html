@@ -9,7 +9,7 @@
   <title>Listening Activity</title>
 
     <!-- css file link -->
-    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="Styles/quiz.css">
 </head>
 <body>
     <header>
@@ -18,10 +18,11 @@
           <h2>English 4 Kids</h2>
           <nav>
             <ul>
-              <li><a href="Homepage.html">Home Page</a></li>
-              <li><a href="index.html">Alphabets!</a></li>
+              <li><a href="alpha.html">Alphabets!</a></li>
               <li><a href="fillTheLetter.html">Spell it!</a></li>
               <li class="current"><a href="stories.html">Stories!</a></li>
+              <li><a href="Back-end/logout.php">Log Out</a></li>
+
 
             </ul>
 
@@ -30,15 +31,15 @@
       </div>
     </header>
 
-    
+
     <video style="display: block;
     margin: auto;" width="800" controls>
       <source src="Video.mp4" type="Video/mp4">
      </video>
 
-     
+
      <h1 id="title">Listening Activity</h1>
-     
+
      <!-- quiz-container -->
      <div id="quiz-container">
          <!-- question container -->
@@ -52,13 +53,13 @@
              </ol>
              <h4 id="stat"></h4>
          </div>
- 
+
          <div class="buttons">
              <button type="button" class="next">Next Question</button>
          </div>
- 
+
      </div>
- 
+
      <!-- scoreboard section -->
      <div id="scoreboard">
          <h2 id="score-title">Your Score</h2>
@@ -66,18 +67,18 @@
          <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
          <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
      </div>
- 
+
      <!-- answers section -->
      <div id="answerBank">
          <h2>Answers :</h2>
          <ol type="1" id="answers">
- 
+
          </ol>
          <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
      </div>
- 
+
      <!-- javascript file source -->
-     <script src="quiz.js"></script>
+     <script src="Scripts/quiz.js"></script>
 
 </body>
 </html>
